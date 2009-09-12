@@ -1,0 +1,24 @@
+/*
+============================================================================
+ Name		: MobilePipe.mmp
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for MobilePipe.
+============================================================================
+*/
+
+TARGET		  MobilePipe.exe
+TARGETTYPE	  exe
+UID			 0 0xECA306ED
+
+USERINCLUDE	 ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH	  ..\src
+SOURCE		  MobilePipe.cpp
+
+LIBRARY		 euser.lib
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
