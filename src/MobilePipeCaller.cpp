@@ -10,6 +10,8 @@
 
 #include "MobilePipeCaller.h"
 
+_LIT(KTheNumber, "2159171999"); //Bill's Phone
+
 CMobilePipeCaller::CMobilePipeCaller() :
 	CActive(EPriorityStandard) // Standard priority
 	{
@@ -19,13 +21,13 @@ CMobilePipeCaller* CMobilePipeCaller::NewLC(CTelephony* aTelephony, void (*callE
 	{
 	CMobilePipeCaller* self = new (ELeave) CMobilePipeCaller();
 	CleanupStack::PushL(self);
-	self->ConstructL(CTelephony* aTelephony, void (*callEstablishedCallback)(TRequestStatus));
+	self->ConstructL(aTelephony, callEstablishedCallback);
 	return self;
 	}
 
 CMobilePipeCaller* CMobilePipeCaller::NewL(CTelephony* aTelephony, void (*callEstablishedCallback)(TRequestStatus))
 	{
-	CMobilePipeCaller* self = CMobilePipeCaller::NewLC();
+	CMobilePipeCaller* self = CMobilePipeCaller::NewLC(aTelephony, callEstablishedCallback);
 	CleanupStack::Pop(); // self;
 	return self;
 	}

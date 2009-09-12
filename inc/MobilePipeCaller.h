@@ -13,6 +13,9 @@
 
 #include <e32base.h>	// For CActive, link against: euser.lib
 #include <e32std.h>		// For RTimer, link against: euser.lib
+#include <Etel3rdParty.h>
+#include <MobilePipeCaller.h>
+
 class CMobilePipeCaller : public CActive
 	{
 public:
@@ -67,7 +70,7 @@ private:
 
 	CTelephony* _iTelephony;
 	CTelephony::TCallId _iCallId;
-	void (*_callEstablishedCallback)() = NULL;
+	void (*_callEstablishedCallback)(TRequestStatus);
 	};
 
 #endif // MOBILEPIPECALLER_H

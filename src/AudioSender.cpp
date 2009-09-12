@@ -51,7 +51,7 @@ void CAudioSender::ConstructL()
 // ----------------------------------------------------------------------------
 void CAudioSender::MaoscOpenComplete(TInt aError)
     {
-    if (aError==KErrNone) 
+    /*if (aError==KErrNone) 
         {
         // output stream opened succesfully, set status
         iOutputStatus = EOpen;
@@ -91,7 +91,7 @@ void CAudioSender::MaoscOpenComplete(TInt aError)
         // output stream open failed
         iOutputStatus = ENotReady;
         ShowMessage(_L("Playback failed!"), ETrue);
-        }       
+        } */      
     }
 
 // ----------------------------------------------------------------------------
@@ -103,8 +103,8 @@ void CAudioSender::MaoscOpenComplete(TInt aError)
 // written.
 // ----------------------------------------------------------------------------
 void CAudioSender::MaoscBufferCopied(TInt aError, const TDesC8& /*aBuffer*/)
-    {   
-    if (aError==KErrNone) 
+    {
+    /*if (aError==KErrNone) 
         {
         if (iStreamIdx==iStreamEnd)
             {
@@ -130,7 +130,7 @@ void CAudioSender::MaoscBufferCopied(TInt aError, const TDesC8& /*aBuffer*/)
         {
         ShowMessage(_L("\nError writing data \nto output"), EFalse);            
         iOutputStatus = ENotReady;
-        }
+        }*/
     }
 
 
@@ -144,7 +144,7 @@ void CAudioSender::MaoscBufferCopied(TInt aError, const TDesC8& /*aBuffer*/)
 // ----------------------------------------------------------------------------
 void CAudioSender::MaoscPlayComplete(TInt aError)
     {
-    iOutputStatus = ENotReady;
+    /*iOutputStatus = ENotReady;
     if (aError==KErrNone) 
         {
         // normal stream closure
@@ -156,5 +156,5 @@ void CAudioSender::MaoscPlayComplete(TInt aError)
     else 
         {
         // completed with error(s)
-        }   
+        }*/   
     }

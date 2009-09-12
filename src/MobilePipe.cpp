@@ -13,8 +13,7 @@
 #include <e32base.h>
 #include <e32std.h>
 #include <e32cons.h>			// Console
-#include <Etel3rdParty.h>
-#include <Caller.h>
+#include <MobilePipeApp.h>
 
 //  Constants
 
@@ -34,9 +33,7 @@ LOCAL_C void MainL()
 	//
 	// add your program code here, example code below
 	//
-	console->Write(_L("Calling!\n"));
-	Caller* c = new Caller(CTelephony::NewL());
-	c->Dial();
+	CMobilePipeApp* a = CMobilePipeApp::NewL();
 	}
 
 LOCAL_C void DoStartL()

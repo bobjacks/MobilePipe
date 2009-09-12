@@ -14,6 +14,7 @@
 // INCLUDES
 #include <e32std.h>
 #include <e32base.h>
+#include <MdaAudioOutputStream.h>
 
 // CLASS DECLARATION
 
@@ -53,8 +54,6 @@ private:
 	 */
 	void ConstructL();
 
-	};
-
 	/*!
 	 * MaoscOpenComplete()
 	 *
@@ -93,5 +92,6 @@ private:
 	 *    error codes.
 	 */
 	virtual void MaoscPlayComplete(TInt aError);
-
+	};
+	
 #endif // AUDIOSENDER_H
