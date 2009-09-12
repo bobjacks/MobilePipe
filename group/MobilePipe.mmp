@@ -15,7 +15,7 @@ USERINCLUDE	 ..\inc
 SYSTEMINCLUDE   \epoc32\include
 
 SOURCEPATH	  ..\src
-SOURCE		  MobilePipe.cpp MMdaAudioOutputStreamCallbackImpl.cpp Caller.cpp
+SOURCE		  MobilePipe.cpp AudioSender.cpp MobilePipeCaller.cpp
 
 LIBRARY		 euser.lib etel3rdparty.lib
 
