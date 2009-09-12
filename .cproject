@@ -26,9 +26,10 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__EXE__;__WINSCW__;__SUPPORT_CPP_EXCEPTIONS__;__SYMBIAN32__;__S60_3X__;_UNICODE;__SERIES60_3X__;_DEBUG;__S60_32__;__WINS__;__CW32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252714934494" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__EXE__;__WINSCW__;__SUPPORT_CPP_EXCEPTIONS__;__SYMBIAN32__;__S60_3X__;_UNICODE;__SERIES60_3X__;_DEBUG;__S60_32__;__WINS__;__CW32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252717132986" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cconfiguration>
 <cconfiguration id="Phone Debug (ARMV5) [S60_3rd_FP2_SDK_v1.1]">
 <storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (ARMV5) [S60_3rd_FP2_SDK_v1.1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (ARMV5) [S60_3rd_FP2_SDK_v1.1]">
@@ -52,9 +53,10 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__ARMCC__;__MARM__;__S60_3X__;__ARMCC_2_2__;_UNICODE;_DEBUG;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252714934744" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__ARMCC__;__MARM__;__S60_3X__;__ARMCC_2_2__;_UNICODE;_DEBUG;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252717133017" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cconfiguration>
 <cconfiguration id="Phone Release (ARMV5) [S60_3rd_FP2_SDK_v1.1]">
 <storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (ARMV5) [S60_3rd_FP2_SDK_v1.1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (ARMV5) [S60_3rd_FP2_SDK_v1.1]">
@@ -78,9 +80,10 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;NDEBUG;__ARMCC__;__MARM__;__S60_3X__;__ARMCC_2_2__;_UNICODE;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252714934884" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;NDEBUG;__ARMCC__;__MARM__;__S60_3X__;__ARMCC_2_2__;_UNICODE;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252717133049" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cconfiguration>
 <cconfiguration id="Phone Debug (GCCE) [S60_3rd_FP2_SDK_v1.1]">
 <storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [S60_3rd_FP2_SDK_v1.1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [S60_3rd_FP2_SDK_v1.1]">
@@ -103,9 +106,10 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__GCCE__;__MARM__;_UNICODE;__S60_3X__;_DEBUG;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252714934947" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__GCCE__;__MARM__;_UNICODE;__S60_3X__;_DEBUG;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252717133064" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cconfiguration>
 <cconfiguration id="Phone Release (GCCE) [S60_3rd_FP2_SDK_v1.1]">
 <storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [S60_3rd_FP2_SDK_v1.1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [S60_3rd_FP2_SDK_v1.1]">
@@ -128,9 +132,10 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__GCCE__;NDEBUG;__MARM__;_UNICODE;__S60_3X__;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252714935040" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\MobilePipe\group\MobilePipe.mmp;C:\Symbian\Carbide\workspace\MobilePipe\group\bld.inf;" includesCache="C:/Symbian/Carbide/workspace/MobilePipe/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="__GENERIC_MARM__;__EXE__;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EPOC32__;__EABI__;__GCCE__;NDEBUG;__MARM__;_UNICODE;__S60_3X__;__SERIES60_3X__;__MARM_ARMV5__;__S60_32__;" moduleId="configDataCache" sourcesCache="/MobilePipe/inc;/MobilePipe/src;" timestampCache="1252717133080" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cconfiguration>
 </storageModule>
 </cproject>

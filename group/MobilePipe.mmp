@@ -15,10 +15,10 @@ USERINCLUDE	 ..\inc
 SYSTEMINCLUDE   \epoc32\include
 
 SOURCEPATH	  ..\src
-SOURCE		  MobilePipe.cpp
+SOURCE		  MobilePipe.cpp MMdaAudioOutputStreamCallbackImpl.cpp
 
 LIBRARY		 euser.lib
 
 #ifdef ENABLE_ABIV2_MODE
-  DEBUGGABLE_UDEBONLY
+DEBUGGABLE_UDEBONLY
 #endif

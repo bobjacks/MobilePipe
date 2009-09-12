@@ -13,6 +13,7 @@
 #include <e32base.h>
 #include <e32std.h>
 #include <e32cons.h>			// Console
+#include <MdaAudioOutputStream.h>
 
 //  Constants
 
@@ -33,6 +34,7 @@ LOCAL_C void MainL()
 	// add your program code here, example code below
 	//
 	console->Write(_L("Hello, world!\n"));
+	
 	}
 
 LOCAL_C void DoStartL()
