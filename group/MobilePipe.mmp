@@ -15,9 +15,9 @@ USERINCLUDE	 ..\inc
 SYSTEMINCLUDE   \epoc32\include
 
 SOURCEPATH	  ..\src
-SOURCE		  MobilePipe.cpp AudioSender.cpp MobilePipeCaller.cpp MobilePipeApp.cpp
+SOURCE		  MobilePipe.cpp MobilePipeCaller.cpp MobilePipeApp.cpp AudioListener.cpp
 
-LIBRARY		 euser.lib etel3rdparty.lib
+LIBRARY		 euser.lib etel3rdparty.lib mediaclientaudioinputstream.lib
 
 #ifdef ENABLE_ABIV2_MODE
 DEBUGGABLE_UDEBONLY
